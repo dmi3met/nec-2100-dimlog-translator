@@ -1,8 +1,13 @@
 # nec-2100-dimlog-translator
-nec dimlog translate from clipboard
+DIM (Diagnostic Information Maintenance) Log translator for NEC SL 2100 
+from clipboard
 
-this is small utility, for use 
+#### >>>> PORT:000C0011H  STATUS 000DH => 0011H
+will transform into
+#### TRK 17 - SPEAK
 
-1. copy dimlog from putty or term connection 
-2. run this python script 
+this is small Python utility, for use 
+
+1. copy dimlog text from putty or term connection into clipboard
+2. run this script 
 3. easy translate what exactly going wrong with ports
